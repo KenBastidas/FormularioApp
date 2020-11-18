@@ -30,23 +30,23 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtHorasTrab = new System.Windows.Forms.TextBox();
-            this.txtValorHora = new System.Windows.Forms.TextBox();
-            this.txtBono = new System.Windows.Forms.TextBox();
             this.txtTotalIng = new System.Windows.Forms.TextBox();
-            this.txtAsoTrab = new System.Windows.Forms.TextBox();
-            this.txtBar = new System.Windows.Forms.TextBox();
-            this.txtCuentaxPagar = new System.Windows.Forms.TextBox();
+            this.txtBono = new System.Windows.Forms.TextBox();
+            this.txtValorHora = new System.Windows.Forms.TextBox();
+            this.txtHorasTrab = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtTotalEgresos = new System.Windows.Forms.TextBox();
+            this.txtCuentaxPagar = new System.Windows.Forms.TextBox();
+            this.txtBar = new System.Windows.Forms.TextBox();
+            this.txtAsoTrab = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblResultado = new System.Windows.Forms.Label();
@@ -83,6 +83,74 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ingresos";
             // 
+            // txtTotalIng
+            // 
+            this.txtTotalIng.Location = new System.Drawing.Point(147, 145);
+            this.txtTotalIng.Name = "txtTotalIng";
+            this.txtTotalIng.ReadOnly = true;
+            this.txtTotalIng.Size = new System.Drawing.Size(100, 20);
+            this.txtTotalIng.TabIndex = 7;
+            // 
+            // txtBono
+            // 
+            this.txtBono.Location = new System.Drawing.Point(147, 111);
+            this.txtBono.Name = "txtBono";
+            this.txtBono.Size = new System.Drawing.Size(100, 20);
+            this.txtBono.TabIndex = 6;
+            this.txtBono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBono_KeyPress);
+            // 
+            // txtValorHora
+            // 
+            this.txtValorHora.Location = new System.Drawing.Point(147, 77);
+            this.txtValorHora.Name = "txtValorHora";
+            this.txtValorHora.Size = new System.Drawing.Size(100, 20);
+            this.txtValorHora.TabIndex = 5;
+            this.txtValorHora.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValorHora_KeyPress);
+            // 
+            // txtHorasTrab
+            // 
+            this.txtHorasTrab.Location = new System.Drawing.Point(147, 33);
+            this.txtHorasTrab.Name = "txtHorasTrab";
+            this.txtHorasTrab.Size = new System.Drawing.Size(100, 20);
+            this.txtHorasTrab.TabIndex = 4;
+            this.txtHorasTrab.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHorasTrab_KeyPress);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(23, 145);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(119, 13);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "TOTAL DE INGRESOS";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(19, 111);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(123, 13);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Bono de responsabilidad";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(19, 77);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(73, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Valor por hora";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(21, 36);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Horas trabajadas";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtTotalEgresos);
@@ -100,69 +168,37 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Egresos";
             // 
-            // label2
+            // txtTotalEgresos
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 36);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Horas trabajadas";
+            this.txtTotalEgresos.Location = new System.Drawing.Point(137, 144);
+            this.txtTotalEgresos.Name = "txtTotalEgresos";
+            this.txtTotalEgresos.ReadOnly = true;
+            this.txtTotalEgresos.Size = new System.Drawing.Size(100, 20);
+            this.txtTotalEgresos.TabIndex = 7;
             // 
-            // label3
+            // txtCuentaxPagar
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 77);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Valor por hora";
+            this.txtCuentaxPagar.Location = new System.Drawing.Point(137, 102);
+            this.txtCuentaxPagar.Name = "txtCuentaxPagar";
+            this.txtCuentaxPagar.Size = new System.Drawing.Size(100, 20);
+            this.txtCuentaxPagar.TabIndex = 6;
+            this.txtCuentaxPagar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCuentaxPagar_KeyPress);
             // 
-            // label4
+            // txtBar
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(19, 111);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Bono de responsabilidad";
+            this.txtBar.Location = new System.Drawing.Point(137, 65);
+            this.txtBar.Name = "txtBar";
+            this.txtBar.Size = new System.Drawing.Size(100, 20);
+            this.txtBar.TabIndex = 5;
+            this.txtBar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBar_KeyPress);
             // 
-            // label5
+            // txtAsoTrab
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(23, 145);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 13);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "TOTAL DE INGRESOS";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 32);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(108, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Aso. de Trabajadores";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(16, 65);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(23, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Bar";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(16, 102);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(89, 13);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Cuenta por pagar";
+            this.txtAsoTrab.Location = new System.Drawing.Point(137, 27);
+            this.txtAsoTrab.Name = "txtAsoTrab";
+            this.txtAsoTrab.Size = new System.Drawing.Size(100, 20);
+            this.txtAsoTrab.TabIndex = 4;
+            this.txtAsoTrab.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAsoTrab_KeyPress);
             // 
             // label9
             // 
@@ -173,63 +209,33 @@
             this.label9.TabIndex = 3;
             this.label9.Text = "TOTAL DE EGRESOS";
             // 
-            // txtHorasTrab
+            // label8
             // 
-            this.txtHorasTrab.Location = new System.Drawing.Point(147, 33);
-            this.txtHorasTrab.Name = "txtHorasTrab";
-            this.txtHorasTrab.Size = new System.Drawing.Size(100, 20);
-            this.txtHorasTrab.TabIndex = 4;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(16, 102);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(89, 13);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Cuenta por pagar";
             // 
-            // txtValorHora
+            // label7
             // 
-            this.txtValorHora.Location = new System.Drawing.Point(147, 77);
-            this.txtValorHora.Name = "txtValorHora";
-            this.txtValorHora.Size = new System.Drawing.Size(100, 20);
-            this.txtValorHora.TabIndex = 5;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(16, 65);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(23, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Bar";
             // 
-            // txtBono
+            // label6
             // 
-            this.txtBono.Location = new System.Drawing.Point(147, 111);
-            this.txtBono.Name = "txtBono";
-            this.txtBono.Size = new System.Drawing.Size(100, 20);
-            this.txtBono.TabIndex = 6;
-            // 
-            // txtTotalIng
-            // 
-            this.txtTotalIng.Location = new System.Drawing.Point(147, 145);
-            this.txtTotalIng.Name = "txtTotalIng";
-            this.txtTotalIng.ReadOnly = true;
-            this.txtTotalIng.Size = new System.Drawing.Size(100, 20);
-            this.txtTotalIng.TabIndex = 7;
-            // 
-            // txtAsoTrab
-            // 
-            this.txtAsoTrab.Location = new System.Drawing.Point(137, 27);
-            this.txtAsoTrab.Name = "txtAsoTrab";
-            this.txtAsoTrab.Size = new System.Drawing.Size(100, 20);
-            this.txtAsoTrab.TabIndex = 4;
-            // 
-            // txtBar
-            // 
-            this.txtBar.Location = new System.Drawing.Point(137, 65);
-            this.txtBar.Name = "txtBar";
-            this.txtBar.Size = new System.Drawing.Size(100, 20);
-            this.txtBar.TabIndex = 5;
-            // 
-            // txtCuentaxPagar
-            // 
-            this.txtCuentaxPagar.Location = new System.Drawing.Point(137, 102);
-            this.txtCuentaxPagar.Name = "txtCuentaxPagar";
-            this.txtCuentaxPagar.Size = new System.Drawing.Size(100, 20);
-            this.txtCuentaxPagar.TabIndex = 6;
-            // 
-            // txtTotalEgresos
-            // 
-            this.txtTotalEgresos.Location = new System.Drawing.Point(137, 144);
-            this.txtTotalEgresos.Name = "txtTotalEgresos";
-            this.txtTotalEgresos.ReadOnly = true;
-            this.txtTotalEgresos.Size = new System.Drawing.Size(100, 20);
-            this.txtTotalEgresos.TabIndex = 7;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(16, 32);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(108, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Aso. de Trabajadores";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label10
             // 

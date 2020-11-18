@@ -34,10 +34,52 @@ namespace FormularioApp
 
             //Tarea:
             //1.Validar el ingreso de todos los cuadros de textos
-            //2.validar que el dato ingresado sea numerico
-            //no usar try...catch
-            
 
+            if (this.txtHorasTrab.Text.Length == 0)
+            {
+                MessageBox.Show("Por favor debes ingresar las horas trabajadas...");
+                this.txtHorasTrab.Focus(); //ubica el cursor en el control
+                return ; //abandonar
+            }
+            
+            
+            if(this.txtValorHora.Text.Length== 0)
+            {
+                MessageBox.Show("Por favor debes ingresar el Valor por hora...");
+                this.txtValorHora.Focus(); //ubica el cursor en el control
+                return ; //abandonar
+            }
+            
+            if(this.txtBono.Text.Length == 0)
+            {
+                MessageBox.Show("Por favor debes ingresar el valor del bono...");
+                this.txtBono.Focus(); //ubica el cursor en el control
+                return ; //abandonar
+            }
+
+            
+            if(this.txtAsoTrab.Text.Length== 0)
+            {
+                MessageBox.Show("Por favor debes ingresar el gatos de la asocicacion...");
+                this.txtAsoTrab.Focus(); //ubica el cursor en el control
+                return ; //abandonar
+            }
+            
+            if(this.txtBar.Text.Length == 0)
+            {
+                MessageBox.Show("Por favor debes ingresar el gasto en el bar...");
+                this.txtBar.Focus(); //ubica el cursor en el control
+                return ; //abandonar
+            }
+
+            if (this.txtCuentaxPagar.Text.Length== 0)
+            {
+                MessageBox.Show("Por favor debes ingresar el valor de la cuenta por pagar...");
+                this.txtCuentaxPagar.Focus(); //ubica el cursor en el control
+                return; //abandonar
+            }
+
+                     
             //sumar los ingresos
             double horasTrab = double.Parse(this.txtHorasTrab.Text);
             double valorHora = double.Parse(this.txtValorHora.Text);
@@ -62,6 +104,69 @@ namespace FormularioApp
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close(); //cerrar el formulario actual
+        }
+
+        //2.validar que el dato ingresado sea numerico
+        //no usar try...catch
+
+        private void txtHorasTrab_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if((e.KeyChar >=32 && e.KeyChar <=47) || (e.KeyChar>= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("Only numbers", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtValorHora_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("Only numbers", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtBono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("Only numbers", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtAsoTrab_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("Only numbers", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtBar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("Only numbers", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtCuentaxPagar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("Only numbers", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
         }
     }
 }
