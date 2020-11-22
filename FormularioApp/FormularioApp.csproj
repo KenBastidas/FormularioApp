@@ -52,6 +52,12 @@
     <Compile Include="frmBinarioEnNumero.Designer.cs">
       <DependentUpon>frmBinarioEnNumero.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmNameage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNameage.Designer.cs">
+      <DependentUpon>FrmNameage.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmNumberPrimo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmBinarioEnNumero.resx">
       <DependentUpon>frmBinarioEnNumero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNameage.resx">
+      <DependentUpon>FrmNameage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmNumberPrimo.resx">
       <DependentUpon>FrmNumberPrimo.cs</DependentUpon>
