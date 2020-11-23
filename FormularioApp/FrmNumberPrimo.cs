@@ -66,5 +66,10 @@ namespace FormularioApp
                 label4.Visible = true;
             }
         }
+
+        private void txtNumberEn_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -88,6 +88,12 @@
     <Compile Include="FrmSueldo.Designer.cs">
       <DependentUpon>FrmSueldo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmTablaMul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTablaMul.Designer.cs">
+      <DependentUpon>FrmTablaMul.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmVentanaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSueldo.resx">
       <DependentUpon>FrmSueldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTablaMul.resx">
+      <DependentUpon>FrmTablaMul.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmVentanaPrincipal.resx">
       <DependentUpon>FrmVentanaPrincipal.cs</DependentUpon>

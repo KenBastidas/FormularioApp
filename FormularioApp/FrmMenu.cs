@@ -12,8 +12,6 @@ namespace FormularioApp
 {
     public partial class FrmMenu : Form
     {
-        private int childFormNumber = 0;
-
         public FrmMenu()
         {
             InitializeComponent();
