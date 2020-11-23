@@ -34,5 +34,11 @@ namespace FormularioApp
         {
             Application.Exit();
         }
+
+        private void btnBinaEnNum_Click(object sender, EventArgs e)
+        {
+            frmBinarioEnNumero frm1 = new frmBinarioEnNumero();
+            frm1.Show();
+        }
     }
 }
