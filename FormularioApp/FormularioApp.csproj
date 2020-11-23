@@ -82,6 +82,12 @@
     <Compile Include="FrmSueldo.Designer.cs">
       <DependentUpon>FrmSueldo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVentanaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVentanaPrincipal.Designer.cs">
+      <DependentUpon>FrmVentanaPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmBinarioEnNumero.resx">
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSueldo.resx">
       <DependentUpon>FrmSueldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVentanaPrincipal.resx">
+      <DependentUpon>FrmVentanaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

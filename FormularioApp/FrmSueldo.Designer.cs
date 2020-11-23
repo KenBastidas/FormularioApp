@@ -298,6 +298,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmSueldo";
             this.Text = "Calculo del sueldo de un trabajador";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
