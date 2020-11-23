@@ -26,42 +26,42 @@ namespace FormularioApp
         {
             double qui = 0;
             double sumar = 0; 
-            if(chk1.Checked == true)
+            if(chk8.Checked == true)
             {
                 qui = Math.Pow(2, 0);
                 sumar += qui;
             }
-            if (chk2.Checked == true)
+            if (chk7.Checked == true)
             {
                 qui = Math.Pow(2, 1);
                 sumar += qui;
             }
-            if (chk3.Checked == true)
+            if (chk6.Checked == true)
             {
                 qui = Math.Pow(2, 2);
                 sumar += qui;
             }
-            if (chk4.Checked == true)
+            if (chk5.Checked == true)
             {
                 qui = Math.Pow(2, 3);
                 sumar += qui;
             }
-            if (chk5.Checked == true)
+            if (chk4.Checked == true)
             {
                 qui = Math.Pow(2, 4);
                 sumar += qui;
             }
-            if (chk6.Checked == true)
+            if (chk3.Checked == true)
             {
                 qui = Math.Pow(2, 5);
                 sumar += qui;
             }
-            if (chk7.Checked == true)
+            if (chk2.Checked == true)
             {
                 qui = Math.Pow(2, 6);
                 sumar += qui;
             }
-            if (chk8.Checked == true)
+            if (chk1.Checked == true)
             {
                 qui = Math.Pow(2, 7);
                 sumar += qui;
