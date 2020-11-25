@@ -58,6 +58,12 @@
     <Compile Include="FrmDateTimeP.Designer.cs">
       <DependentUpon>FrmDateTimeP.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmFactorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFactorial.Designer.cs">
+      <DependentUpon>FrmFactorial.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDateTimeP.resx">
       <DependentUpon>FrmDateTimeP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFactorial.resx">
+      <DependentUpon>FrmFactorial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
