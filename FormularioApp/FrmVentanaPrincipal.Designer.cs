@@ -33,9 +33,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnBinaEnNum = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnNumberPrimo = new System.Windows.Forms.Button();
+            this.btnNameAge = new System.Windows.Forms.Button();
+            this.btnDateTime = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCalcularsueldo
@@ -87,41 +87,44 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // button1
+            // btnNumberPrimo
             // 
-            this.button1.Location = new System.Drawing.Point(300, 56);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 60);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnNumberPrimo.Location = new System.Drawing.Point(301, 53);
+            this.btnNumberPrimo.Name = "btnNumberPrimo";
+            this.btnNumberPrimo.Size = new System.Drawing.Size(160, 60);
+            this.btnNumberPrimo.TabIndex = 5;
+            this.btnNumberPrimo.Text = "NumberPrimo";
+            this.btnNumberPrimo.UseVisualStyleBackColor = true;
+            this.btnNumberPrimo.Click += new System.EventHandler(this.btnNumberPrimo_Click);
             // 
-            // button2
+            // btnNameAge
             // 
-            this.button2.Location = new System.Drawing.Point(299, 126);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(160, 48);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnNameAge.Location = new System.Drawing.Point(301, 125);
+            this.btnNameAge.Name = "btnNameAge";
+            this.btnNameAge.Size = new System.Drawing.Size(160, 48);
+            this.btnNameAge.TabIndex = 6;
+            this.btnNameAge.Text = "NameAge";
+            this.btnNameAge.UseVisualStyleBackColor = true;
+            this.btnNameAge.Click += new System.EventHandler(this.btnNameAge_Click);
             // 
-            // button3
+            // btnDateTime
             // 
-            this.button3.Location = new System.Drawing.Point(300, 198);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(158, 49);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnDateTime.Location = new System.Drawing.Point(303, 194);
+            this.btnDateTime.Name = "btnDateTime";
+            this.btnDateTime.Size = new System.Drawing.Size(158, 49);
+            this.btnDateTime.TabIndex = 7;
+            this.btnDateTime.Text = "DateTime";
+            this.btnDateTime.UseVisualStyleBackColor = true;
+            this.btnDateTime.Click += new System.EventHandler(this.btnDateTime_Click);
             // 
             // FrmVentanaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnDateTime);
+            this.Controls.Add(this.btnNameAge);
+            this.Controls.Add(this.btnNumberPrimo);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnBinaEnNum);
             this.Controls.Add(this.label1);
@@ -141,8 +144,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnBinaEnNum;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnNumberPrimo;
+        private System.Windows.Forms.Button btnNameAge;
+        private System.Windows.Forms.Button btnDateTime;
     }
 }

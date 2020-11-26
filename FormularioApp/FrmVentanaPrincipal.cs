@@ -30,14 +30,32 @@ namespace FormularioApp
             frm1.ShowDialog();
         }
 
+        private void btnBinaEnNum_Click(object sender, EventArgs e)
+        {
+            frmBinarioEnNumero frm1 = new frmBinarioEnNumero();
+            frm1.Show();
+        }
+
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void btnBinaEnNum_Click(object sender, EventArgs e)
+        private void btnNumberPrimo_Click(object sender, EventArgs e)
         {
-            frmBinarioEnNumero frm1 = new frmBinarioEnNumero();
+            FrmNumberPrimo frm1 = new FrmNumberPrimo();
+            frm1.Show();
+        }
+
+        private void btnNameAge_Click(object sender, EventArgs e)
+        {
+            FrmNameage frm1 = new FrmNameage();
+            frm1.Show();
+        }
+
+        private void btnDateTime_Click(object sender, EventArgs e)
+        {
+            FrmDateTimeP frm1 = new FrmDateTimeP();
             frm1.Show();
         }
     }
