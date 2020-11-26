@@ -100,5 +100,12 @@ namespace FormularioApp
             frm1.MdiParent = this;
             frm1.Show();
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            FrmDateTimeP frm1 = new FrmDateTimeP();
+            frm1.MdiParent = this;
+            frm1.Show();
+        }
     }
 }
