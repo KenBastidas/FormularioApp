@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\FormulaMatematica.cs" />
     <Compile Include="frmBinarioEnNumero.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +64,12 @@
     </Compile>
     <Compile Include="FrmFactorial.Designer.cs">
       <DependentUpon>FrmFactorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFormuMath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFormuMath.Designer.cs">
+      <DependentUpon>FrmFormuMath.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
@@ -87,6 +94,12 @@
     </Compile>
     <Compile Include="frmNumeroEnBinario.Designer.cs">
       <DependentUpon>frmNumeroEnBinario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSerieFactorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSerieFactorial.Designer.cs">
+      <DependentUpon>FrmSerieFactorial.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmSueldo.cs">
       <SubType>Form</SubType>
@@ -117,6 +130,9 @@
     <EmbeddedResource Include="FrmFactorial.resx">
       <DependentUpon>FrmFactorial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmFormuMath.resx">
+      <DependentUpon>FrmFormuMath.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNumeroEnBinario.resx">
       <DependentUpon>frmNumeroEnBinario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSerieFactorial.resx">
+      <DependentUpon>FrmSerieFactorial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSueldo.resx">
       <DependentUpon>FrmSueldo.cs</DependentUpon>
