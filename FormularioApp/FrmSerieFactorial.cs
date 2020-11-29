@@ -19,8 +19,8 @@ namespace FormularioApp
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            int num = int.Parse(this.txtLimite.Text);
-            long cad = TIC.utilidades.Serie(num);
+            int number = int.Parse(this.txtLimit.Text);
+            long cad = TIC.utilidades.Serie(number);
             this.txtResultado.Text = cad.ToString();
         }
     }

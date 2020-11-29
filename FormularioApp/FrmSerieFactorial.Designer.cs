@@ -32,7 +32,7 @@
             this.btnCalcular = new System.Windows.Forms.Button();
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtLimite = new System.Windows.Forms.TextBox();
+            this.txtLimit = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -46,7 +46,7 @@
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(258, 87);
+            this.btnCalcular.Location = new System.Drawing.Point(164, 87);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(351, 87);
+            this.txtResultado.Location = new System.Drawing.Point(258, 89);
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -72,19 +72,19 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Ingresar un limite";
             // 
-            // txtLimite
+            // txtLimit
             // 
-            this.txtLimite.Location = new System.Drawing.Point(258, 50);
-            this.txtLimite.Name = "txtLimite";
-            this.txtLimite.Size = new System.Drawing.Size(102, 20);
-            this.txtLimite.TabIndex = 4;
+            this.txtLimit.Location = new System.Drawing.Point(258, 50);
+            this.txtLimit.Name = "txtLimit";
+            this.txtLimit.Size = new System.Drawing.Size(102, 20);
+            this.txtLimit.TabIndex = 4;
             // 
             // FrmSerieFactorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(763, 318);
-            this.Controls.Add(this.txtLimite);
+            this.Controls.Add(this.txtLimit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.btnCalcular);
@@ -102,6 +102,6 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.TextBox txtResultado;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtLimite;
+        private System.Windows.Forms.TextBox txtLimit;
     }
 }

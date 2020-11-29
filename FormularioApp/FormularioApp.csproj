@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\FormulaMatematica.cs" />
+    <Compile Include="Clases\utilidades.cs" />
     <Compile Include="frmBinarioEnNumero.cs">
       <SubType>Form</SubType>
     </Compile>

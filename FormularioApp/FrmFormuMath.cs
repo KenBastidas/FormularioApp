@@ -19,9 +19,9 @@ namespace FormularioApp
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            int num = int.Parse(this.txtInicial.Text);
-            int f = int.Parse(this.txtFinal.Text);
-            double cad = Formula.FormulaMatematica.Formula(num, f);
+            int number = int.Parse(this.txtInicial.Text);
+            int s = int.Parse(this.txtFinal.Text);
+            double cad = Formu.FormulaMatematica.Formu(number, s);
             this.txtResultado.Text = cad.ToString();
         }
     }

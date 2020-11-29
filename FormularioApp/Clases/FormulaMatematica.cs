@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FormularioApp.Clases
+namespace Formu
 {
     class FormulaMatematica
     {
-        public static double Formula(int k, int d)
+        public static double Formu(int k, int d)
         {
             double total = 0;
             double calula = 0;
